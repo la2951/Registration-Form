@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+
+   
+   <form action="action.php">
+    <h2>Registration Form</h2>
+    <label for="name">Name: </label>
+    <input type="text" id="name" placeholder="Type yor name" required><br><br>
+
+    <label for="age">Age: </label>
+    <input type="text" id="age" placeholder="Type yor age" required><br><br>
+
+    <label for="dob">DOB:</label>
+    <input type="date" id="dob" placeholder="mm/dd/yyyy" required><br><br>
+
+    <label for="degree">Degree</label>
+    <select name="degree" id="degree" required>
+        <option value="--Choose--">--Choose--</option>
+        <option value="btech">B-Tech</option>
+        <option value="mtech">M-Tech</option>
+        <option value="bsc">Bsc</option>
+        <option value="mba">MBA</option>
+    </select><br><br>
+
+    <label for="gender">Gender</label>
+    <input type="radio" id="male" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" value="female">
+    <label for="female">Female</label required><br><br>
+    
+    <input type="checkbox" id="terms" required>
+    <label for="terms"> I agree to Terms & Conditions</label required><br><br>
+    
+    <input type="submit" value="Submit">
+
+   </form> 
+</div>
+</body>
+</html>
