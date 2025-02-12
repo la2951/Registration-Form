@@ -26,4 +26,4 @@ A **simple and interactive registration form** built using **HTML, CSS, and Java
 Feel free to fork this project and enhance it!  
 
 ---
-💡 *Made with ❤️ by [Your Name]*
+💡 *Made with ❤️ by Lakshya Agrawal
